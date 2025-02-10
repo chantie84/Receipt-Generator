@@ -1,16 +1,12 @@
 body {
-  background: radial-gradient(
-    788px at 0.7% 3.4%,
-    rgb(164, 231, 192) 60%,
-    rgb(255, 255, 255) 80%
-  );
+  background: #ece6da;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 header {
   margin-bottom: 30px;
 }
 a {
-  color: #a4e7c0;
+  color: #4cb763;
 }
 
 .container {
@@ -25,6 +21,14 @@ h1 {
   color: rgb(14, 15, 14);
 }
 
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
 form {
   padding: 30px;
   background: rgb(183, 235, 203);

@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Pistachio Receipt Generator</title>
   </head>
@@ -10,7 +11,7 @@
     <div class="container">
       <h1>AI Pistachio Receipt Generator</h1>
       <main>
-        <form>
+        <form id="receipt-generator-form">
           <input
             type="text"
             placeholder="Type to get a pistachio receipt 🤗"
@@ -21,12 +22,8 @@
           />
           <input type="Submit" class="submit-button" />
         </form>
-        <div class="pistachio-receipt">
-          Ingrediënten: ▢3.5 el pistachepasta
-          <br />
-          Bereidingswijze: Roer 2 eetlepels pistachepasta, 2 eetlepels suiker en
-          een mespuntje
-        </div>
+        <img src="images/pistache.jpg" />
+        <div class="pistachio-receipt" id="pistachio-receipt"></div>
       </main>
       <footer>
         This AI project is coded by
