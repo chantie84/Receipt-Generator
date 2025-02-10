@@ -1,1 +1,71 @@
+body {
+  background: radial-gradient(
+    788px at 0.7% 3.4%,
+    rgb(164, 231, 192) 60%,
+    rgb(255, 255, 255) 80%
+  );
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header {
+  margin-bottom: 30px;
+}
+a {
+  color: #a4e7c0;
+}
 
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: rgb(14, 15, 14);
+}
+
+form {
+  padding: 30px;
+  background: rgb(183, 235, 203);
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.instructions {
+  padding: 10px;
+  border: 1px solid rgb(164, 231, 192);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 45px;
+  line-height: 15px;
+  color: darkseagreen;
+}
+.submit-button {
+  margin-left: 10px;
+  background: #def6e8;
+  color: black;
+  border: none;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 45px;
+  line-height: 15px;
+  padding: 14px 24px;
+}
+
+.pistachio-receipt {
+  font-size: 16px;
+  background-color: rgb(183, 235, 203);
+  padding: 20px;
+  line-height: 1.5;
+  border-left: 3px solid #a4e7c0;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 30px;
+}

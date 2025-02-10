@@ -4,42 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <title>AI Pistache Receipt Generator</title>
+    <title>AI Pistachio Receipt Generator</title>
   </head>
   <body>
-    <h1>AI Pistache receipt generator</h1>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Type to get a pistache receipt 🤗"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="Submit" />
-      </form>
-      <div>
-        Ingrediënten: ▢3.5 el pistachepasta
-        <br />
-        Bereidingswijze: Roer 2 eetlepels pistachepasta, 2 eetlepels suiker en
-        een mespuntje
-      </div>
-    </main>
-    <footer>
-      This AI project is coded by
-      <a href="https://github.com/chantie84" target="_blank"
-        >Chantal Crompvoets</a
-      >
-      and is
-      <a href="https://github.com/chantie84/Receipt-Generator" target="_blank">
-        open sourced on GitHub
-      </a>
-      and is hosted on
-      <a href="https://ai-receipt-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <h1>AI Pistachio Receipt Generator</h1>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Type to get a pistachio receipt 🤗"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="Submit" class="submit-button" />
+        </form>
+        <div class="pistachio-receipt">
+          Ingrediënten: ▢3.5 el pistachepasta
+          <br />
+          Bereidingswijze: Roer 2 eetlepels pistachepasta, 2 eetlepels suiker en
+          een mespuntje
+        </div>
+      </main>
+      <footer>
+        This AI project is coded by
+        <a href="https://github.com/chantie84" target="_blank"
+          >Chantal Crompvoets</a
+        >
+        and is
+        <a
+          href="https://github.com/chantie84/Receipt-Generator"
+          target="_blank"
+        >
+          open sourced on GitHub
+        </a>
+        and is hosted on
+        <a href="https://ai-receipt-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
