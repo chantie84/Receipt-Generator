@@ -3,27 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Pistachio Receipt Generator</title>
   </head>
   <body>
     <div class="container">
-      <h1>AI Pistachio Receipt Generator</h1>
+      <h1>AI Pistachio Recipe Generator</h1>
       <main>
         <form id="receipt-generator-form">
           <input
             type="text"
-            placeholder="Type to get a pistachio receipt 🤗"
+            placeholder="Type to get a pistachio recipe 🤗"
             autofocus
             required
             autocomplete="off"
             class="instructions"
+            id="user-instructions"
           />
           <input type="Submit" class="submit-button" />
         </form>
         <img src="images/pistache.jpg" />
-        <div class="pistachio-receipt" id="pistachio-receipt"></div>
+        <div class="pistachio-recipe" id="pistachio-recipe"></div>
       </main>
       <footer>
         This AI project is coded by
