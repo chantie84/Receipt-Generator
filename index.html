@@ -12,20 +12,23 @@
     <div class="container">
       <h1>AI Pistachio Recipe Generator</h1>
       <main>
-        <form id="receipt-generator-form">
-          <input
-            type="text"
-            placeholder="Type to get a pistachio recipe 🤗"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="Submit" class="submit-button" />
-        </form>
+        <div class="form-container">
+          <form id="recipe-generator-form">
+            <input
+              type="text"
+              placeholder="Type to get a pistachio recipe 🤗"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="Submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e. chocolate, pancakes or cookies</div>
+        </div>
         <img src="images/pistache.jpg" />
-        <div class="pistachio-recipe" id="pistachio-recipe"></div>
+        <div class="recipe hidden blink" id="pistachio-recipe"></div>
       </main>
       <footer>
         This AI project is coded by
